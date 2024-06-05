@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: blue;
+    border-radius: 32px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-logo p {
+    transition: .2s ease all;
+}
+
+.header-logo p:hover {
+    color: rgb(0, 0, 0);
+    transition: .2s ease all;
+    cursor: pointer;
+}
+
+.header-controls {
+    display: flex;
+}
+
+.header-controls button {
+    padding: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: blue;
+    transition: .2s ease all;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-controls button:hover {
+    text-decoration: underline;
+    color: blue;
+    transition: .2s ease all;
+    cursor: pointer;
+}
