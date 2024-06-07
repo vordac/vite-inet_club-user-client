@@ -1,12 +1,13 @@
 import React from 'react'
+import '../../css/items/software-item.css'
 
 function SoftwareItem({ software }) {
 
     return (
-        <div>
-            <p>Software ID: {software.software_id}</p>
-            <p>Software Name: {software.software_name}</p>
-            <p>Operating System: {software.operating_system}</p>
+        <div className='software-item'>
+            <p><b>Програма №:</b> {software.software_id}</p>
+            <p><b>Назва програми:</b> {software.software_name}</p>
+            <p><b>Операційна система:</b> {software.operating_system}</p>
         </div>
     )
 }

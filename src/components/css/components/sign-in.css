@@ -1,70 +1,59 @@
-.reservation form {
+.sign-in form {
     display: flex;
     flex-direction: column;
     width: 20%;
     justify-content: center;
 }
 
-.reservation-form {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-}
-
-.reservation-form-left,
-.reservation-form-right {
-    display: flex;
-    flex-direction: column;
-}
-
-.reservation form label {
-    margin-top: 16px;
+.sign-in p {
+    font-size: 20px;
+    text-transform: uppercase;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.reservation form input {
+.sign-in form input {
     padding: 8px;
+    height: 20px;
     margin: 8px 0;
     background-color: transparent;
     border: 2px solid black;
 }
 
-.reservation form select {
-    padding: 8px;
+.sign-in-form-signin {
+    height: 48px;
     margin: 8px 0;
-    border: 2px solid black;
-}
-
-.reservation-form-submit {
-    margin: 16px;
-    font-weight: bold;
     background-color: black;
     border: 2px solid black;
-    padding: 8px;
     color: white;
     transition: .3s ease all;
+    font-weight: bold;
 }
 
-.reservation-form-submit:hover {
+.sign-in-form-signin:hover {
     background-color: transparent;
     border: 2px solid black;
     color: black;
     transition: .3s ease all;
+    font-weight: bold;
     cursor: pointer;
 }
 
-.reservation-form-cancel {
-    font-weight: bold;
+.sign-in-form-signup {
+    height: 32px;
+    margin: 8px 0;
     background-color: transparent;
     border: none;
-    padding: 8px;
     color: black;
     transition: .3s ease all;
+    font-weight: bold;
 }
 
-.reservation-form-cancel:hover {
-    color: red;
+.sign-in-form-signup:hover {
+    height: 32px;
+    margin: 8px 0;
+    color: blue;
     transition: .3s ease all;
+    font-weight: bold;
     cursor: pointer;
 }

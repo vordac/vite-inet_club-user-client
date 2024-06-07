@@ -1,0 +1,15 @@
+.enter-message {
+    margin: 0;
+    padding: 8px;
+}
+
+.sign-in,
+.sign-up,
+.reservation {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

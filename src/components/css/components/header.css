@@ -4,40 +4,43 @@
 }
 
 .header-logo {
-    color: blue;
+    color: white;
+    background-color: black;
+    padding: 4px 16px;
     border-radius: 32px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header-logo p {
-    transition: .2s ease all;
-}
-
-.header-logo p:hover {
-    color: rgb(0, 0, 0);
-    transition: .2s ease all;
-    cursor: pointer;
-}
-
 .header-controls {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-controls-divider {
+    height: 32px;
+    width: 1.5px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-controls button {
-    padding: 16px;
-    border-radius: 4px;
+    padding: 0 24px;
+    border-radius: 0;
     border: none;
     background-color: transparent;
     font-weight: bold;
-    color: blue;
+    font-size: 14px;
+    color: black;
     transition: .2s ease all;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-controls button:hover {
     text-decoration: underline;
-    color: blue;
     transition: .2s ease all;
     cursor: pointer;
 }

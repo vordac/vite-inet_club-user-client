@@ -1,13 +1,14 @@
 import React from 'react'
+import '../../css/items/console-item.css'
+
 
 function ConsoleItem({ console }) {
 
     return (
-        <div>
-            <p>Console ID: {console.console_id}</p>
-            <p>Console Workspace ID: {console.console_workspace_id}</p>
-            <p>Console Type: {console.console_type}</p>
-            <p>Console Status: {console.console_status}</p>
+        <div className='console-item'>
+            <p><b>Консоль №:</b> {console.console_id}</p>
+            <p><b>Тип консолі:</b> {console.console_type}</p>
+            <p><b>Статус консолі:</b> {console.console_status}</p>
         </div>
     );
 }

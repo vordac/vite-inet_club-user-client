@@ -4,7 +4,6 @@ import '../../css/items/computer-item.css'
 function ComputerItem({ computer }) {
     return (
         <div className='computer-item'>
-            {/* <p><b>ID Заліза:</b> {computer.hardware_id}</p> */}
             <p><b>Комп'ютер №:</b> {computer.workspace_id}</p>
             <p><b>Процесор:</b> {computer.processor}</p>
             <p><b>Материнка:</b> {computer.motherboard}</p>
