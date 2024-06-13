@@ -1,15 +1,82 @@
-.enter-message {
-    margin: 0;
-    padding: 8px;
+.App {
+    padding: 32px;
 }
 
-.sign-in,
-.sign-up,
-.reservation {
-    height: 90vh;
-    width: 100%;
+.index {
+    width: 400px;
+    height: 800px;
+    background-color: #273c75;
+    padding: 32px;
+    margin: 32px 0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.index-logo {
+    height: 320px;
+    margin-bottom: 32px;
+    background-image: url('./assets/backg.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.index-logo p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.index-reservation button {
+    padding: 16px;
+    width: 320px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: .3s ease all;
+}
+
+.index-reservation button:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgb(95, 158, 230) 0px 0px 0px 8px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.index-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.index-links button {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+.index-links button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.index-tariffs {
+    display: flex;
+    flex-direction: column;
 }
